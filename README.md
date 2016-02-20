@@ -20,10 +20,11 @@ Example:
 ~$ ./blaterare.py -j user@jabber.org -t another_user@jabber.org yet_another_user@jabber.org -p super_secret_password -m "Wassup users??"
 ```
 <p>You can avoid typing username and password each time by creating a ~/.blaterare file with jid and password (if the file does not exist you will be prompted for credentials), e.g:</p>
-<p>JID=user@jabber.org
-<p>PASSWORD="*******"
-<p>RESOURCE=wicked-cool-python-client
-
+```
+JID=user@jabber.org
+PASSWORD="*******"
+RESOURCE=wicked-cool-python-client
+```
 The client takes none or all the possible arguments.
 
 See available arguments
